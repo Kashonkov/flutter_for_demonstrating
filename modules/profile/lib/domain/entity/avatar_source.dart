@@ -1,0 +1,1 @@
+enum AvatarSource { gallery, camera }

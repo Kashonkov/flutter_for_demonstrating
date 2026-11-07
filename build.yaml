@@ -1,0 +1,11 @@
+targets:
+  $default:
+    sources:
+      include:
+        - "modules/*/lib/**"
+        - "modules/*/test/**"
+        - "lib/**"
+        - "test/**"
+      exclude:
+        - '**/*.localizations.dart'
+        - "modules/**/*.localizations.dart"

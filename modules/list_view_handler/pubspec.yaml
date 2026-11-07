@@ -1,0 +1,29 @@
+name: list_view_handler
+description: base classes for pagination
+version: 1.0.0
+homepage: none
+publish_to: none
+
+environment:
+  sdk: ">=3.2.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^9.1.1
+  get_it: ^9.0.5
+  built_value: ^8.10.1
+
+  common:
+    path: ../common
+  ui_kit:
+    path: ../ui_kit
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  built_value_generator: ^8.8.0
+
+flutter:
+  generate: true

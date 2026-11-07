@@ -1,0 +1,24 @@
+{
+  "id": "cluster-count",
+  "type": "symbol",
+  "source": "shipments",
+  "filter": [
+    "has",
+    "point_count"
+  ],
+  "layout": {
+    "text-field": "{point_count_abbreviated}",
+    "text-font": [
+      "Open Sans Regular"
+    ],
+    "text-size": 14
+  },
+  "paint": {
+    "text-color": [
+      "case",
+      [">", ["get", "hasProblem"], 0],
+      "#FFFFFF",
+      "#000000"
+    ]
+  }
+}

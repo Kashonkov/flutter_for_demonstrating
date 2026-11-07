@@ -1,0 +1,1 @@
+enum ShipmentStatus { ok, problem }

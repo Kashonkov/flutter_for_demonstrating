@@ -1,0 +1,21 @@
+{
+  "id": "route-polygon-fill",
+  "type": "fill",
+  "source": "route-polygon-source",
+  "paint": {
+    "fill-color": [
+      "match",
+      ["to-string", ["get", "rangeType"]],
+      "incident", "#F44336",
+      "waypoint", "#16A34A",
+      "#FFFFFF"
+    ],
+    "fill-opacity": [
+      "match",
+      ["to-string", ["get", "rangeType"]],
+      "incident", 0.35,
+      "waypoint", 0.15,
+      1.0
+    ]
+  }
+}

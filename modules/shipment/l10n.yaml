@@ -1,0 +1,6 @@
+arb-dir: lib/l10n
+template-arb-file: shipment_en.arb
+synthetic-package: false
+output-localization-file: shipment_localizations.dart
+output-class: ShipmentLocalizations
+nullable-getter: false

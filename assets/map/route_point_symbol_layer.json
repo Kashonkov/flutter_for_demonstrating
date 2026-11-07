@@ -1,0 +1,23 @@
+{
+  "id": "route-points-symbol",
+  "type": "symbol",
+  "source": "route-source",
+  "filter": [
+    "match",
+    ["to-string", ["get", "type"]],
+    "origin", true,
+    "destination", true,
+    "incident", true,
+    false
+  ],
+  "layout": {
+    "icon-image": ["to-string", ["get", "type"]],
+    "icon-size": 0.3,
+    "icon-allow-overlap": true,
+    "icon-anchor": "bottom",
+    "icon-ignore-placement": true
+  },
+  "paint": {
+    "icon-opacity": 1.0
+  }
+}

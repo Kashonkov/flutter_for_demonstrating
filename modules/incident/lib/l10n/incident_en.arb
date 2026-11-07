@@ -1,0 +1,42 @@
+{
+  "incidents": "Incidents",
+  "openShipment": "Open shipment page",
+  "company": "Company",
+  "download": "Download",
+  "share": "Share",
+  "locationChanged": "Location has changed {position}",
+  "@locationChanged" : {
+    "placeholders": {
+      "position": {
+        "type": "String"
+      }
+    }
+  },
+  "shipment": "Shipment {title}",
+  "@shipment" : {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "coordinates": "{lat}, {long}",
+  "@coordinates" : {
+    "placeholders": {
+      "lat": {
+        "type": "double"
+      },
+      "long": {
+        "type": "double"
+      }
+    }
+  },
+  "accuracy": "(±{value}km)",
+  "@accuracy" : {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  }
+}

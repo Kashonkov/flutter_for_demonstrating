@@ -1,0 +1,20 @@
+{
+  "id": "route-polygon-outline",
+  "type": "line",
+  "source": "route-polygon-source",
+  "layout": {
+    "line-cap": "round",
+    "line-join": "round"
+  },
+  "paint": {
+    "line-color": [
+      "match",
+      ["to-string", ["get", "rangeType"]],
+      "incident", "#B71C1C",
+      "waypoint", "#16A34A",
+      "#16A34A"
+    ],
+    "line-width": 1,
+    "line-opacity": 0.5
+  }
+}

@@ -1,0 +1,49 @@
+name: incident
+description: "Module for incident feature"
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  auto_route: ^10.2.2
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.7
+  external_path: ^2.2.0
+  flutter_bloc: ^9.1.1
+  path_provider: ^2.1.5
+  get_it: ^9.0.5
+  json_annotation: ^4.8.1
+  intl: ^0.20.2
+  retrofit: 4.9.1
+  background_downloader: ^9.5.2
+  mapbox_maps_flutter: ^2.18.0
+  rxdart: ^0.28.0
+  share_plus: ^12.0.1
+  list_view_handler:
+    path: ../list_view_handler
+
+  api:
+    path: ../api
+  common:
+    path: ../common
+  domain_core:
+    path: ../domain_core
+  ui_kit:
+    path: ../ui_kit
+
+
+dev_dependencies:
+  auto_route_generator: ^10.2.6
+  json_serializable: ^6.7.1
+  build_runner: ^2.10.4
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  generate: true

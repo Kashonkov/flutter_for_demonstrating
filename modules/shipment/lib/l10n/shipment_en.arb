@@ -1,0 +1,60 @@
+{
+  "shipments": "Shipments",
+  "ok": "Ok",
+  "cableCut": "Cable Cut",
+  "lowBattery": "Low Battery",
+  "deactivated": "Deactivated",
+  "mainInfo": "Main Info",
+  "origin": "Origin",
+  "destination": "Destination",
+  "lastLocation": "Latest location",
+  "allTime": "All time",
+  "distance": "Distance",
+  "time": "Time",
+  "idle": "Idle",
+  "inMotion": "In motion",
+  "addToWatchList": "Add to watchlist",
+  "editName": "Edit name",
+  "complete": "Complete",
+  "transit": "In transit",
+  "delivered": "Delivered",
+  "filters": "Filters",
+  "dateRange": "Day or date range",
+  "status": "Status",
+  "all": "All",
+  "hasProblem": "Has problem",
+  "cancel": "Cancel",
+  "apply": "Apply",
+  "total": "{value} (total)",
+  "@total" : {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "seals": "Seals({count})",
+  "@seals" : {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "location":"Location",
+  "locationAddress":"Location address",
+  "shipmentStatus": "Shipment status",
+  "problem": "Problem",
+  "comment": "Comment",
+  "problemComment": "Comment on the problem",
+  "lat": "Lat",
+  "ln": "Ln",
+  "date": "Date",
+  "speed": "Speed",
+  "enteredDate": "Entered date",
+  "leftDate": "Left date",
+  "range": "Range",
+  "entrance": "GPS fixes",
+  "incident": "Incident",
+  "openIncident": "Open incident page"
+}

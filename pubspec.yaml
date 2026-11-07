@@ -1,0 +1,71 @@
+name: lxe_app
+description: "LXE app"
+publish_to: 'none'
+version: 1.0.6+6
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  auto_route: ^10.2.2
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  font_awesome_flutter: ^10.12.0
+  get_it: ^9.0.5
+  intl: ^0.20.2
+  mapbox_maps_flutter: ^2.17.0
+  background_downloader: ^9.5.2
+
+  api:
+    path: modules/api
+  auth:
+    path: modules/auth
+  common:
+    path: modules/common
+  domain_core:
+    path: modules/domain_core
+  incident:
+    path: modules/incident
+  order:
+    path: modules/order
+  profile:
+    path: modules/profile
+  shipment:
+    path: modules/shipment
+  ui_kit:
+    path: modules/ui_kit
+
+dev_dependencies:
+  auto_route_generator: ^10.2.6
+  build_runner: ^2.10.4
+  retrofit_generator: ^10.2.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.7.1
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icon/
+    - assets/image/
+    - assets/map/
+  fonts:
+    - family: Balsamiq
+      fonts:
+        - asset: assets/fonts/Balsamiq-Bold.ttf
+        - asset: assets/fonts/Balsamiq-BoldItalic.ttf
+        - asset: assets/fonts/Balsamiq-Italic.ttf
+        - asset: assets/fonts/Balsamiq-Regular.ttf
+    - family: SF
+      fonts:
+        - asset: assets/fonts/SF-Regular.ttf

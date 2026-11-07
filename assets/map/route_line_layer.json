@@ -1,0 +1,14 @@
+{
+  "id": "route-layer",
+  "type": "line",
+  "source": "route-line-source",
+  "layout": {
+    "line-cap": "round",
+    "line-join": "round"
+  },
+  "paint": {
+    "line-color": "#16A34A",
+    "line-width": 4,
+    "line-opacity": 0.9
+  }
+}

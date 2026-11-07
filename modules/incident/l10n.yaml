@@ -1,0 +1,6 @@
+arb-dir: lib/l10n
+template-arb-file: incident_en.arb
+synthetic-package: false
+output-localization-file: incident_localizations.dart
+output-class: IncidentLocalizations
+nullable-getter: false

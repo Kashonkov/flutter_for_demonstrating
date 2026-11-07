@@ -1,0 +1,9 @@
+{
+  "signInTitle": "Sign in to your\nAccount",
+  "enterCreds": "Enter your email and password to log in",
+  "invalidCreds": "Invalid email or password",
+  "emptyFieldError": "Must not be empty",
+  "email": "Email",
+  "password": "Password",
+  "signIn": "Sign in"
+}

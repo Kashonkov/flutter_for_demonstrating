@@ -1,0 +1,16 @@
+{
+  "orders": "Orders",
+  "order": "Order",
+  "seals": "Seals",
+  "pcs": "pcs",
+  "paid": "Paid",
+  "created": "Created",
+  "itemQuantity": "{quantity}pcs",
+  "@itemQuantity": {
+    "placeholders": {
+      "quantity": {
+        "type": "int"
+      }
+    }
+  }
+}

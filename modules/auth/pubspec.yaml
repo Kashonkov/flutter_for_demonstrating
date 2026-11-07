@@ -1,0 +1,43 @@
+name: auth
+description: "Module for authorization feature"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  auto_route: ^10.2.2
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  font_awesome_flutter: ^10.12.0
+  get_it: ^9.0.5
+  json_annotation: ^4.8.1
+  intl: ^0.20.2
+  retrofit: 4.9.1
+
+  api:
+    path: ../api
+  common:
+    path: ../common
+  ui_kit:
+    path: ../ui_kit
+
+dev_dependencies:
+  auto_route_generator: ^10.2.6
+  json_serializable: ^6.7.1
+  build_runner: ^2.10.4
+  retrofit_generator: ^10.2.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  generate: true

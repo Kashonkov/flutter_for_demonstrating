@@ -1,0 +1,16 @@
+{
+  "myOrders": "My orders",
+  "personalInfo": "Personal information",
+  "logOut": "Log Out",
+  "haveQuestions": "Have questions?",
+  "contactSupport": "Contact support",
+  "editPersonalInfo": "Edit personal information",
+  "name": "Name",
+  "phoneNumber": "Phone number",
+  "email": "Email",
+  "company": "Company",
+  "cancel": "Cancel",
+  "save": "Save",
+  "gallery": "Select from Gallery",
+  "photo": "Take photo"
+}

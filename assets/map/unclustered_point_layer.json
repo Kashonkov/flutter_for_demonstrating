@@ -1,0 +1,33 @@
+{
+  "id": "shipments-unclustered",
+  "type": "circle",
+  "source": "shipments",
+  "filter": [
+    "!",
+    [
+      "has",
+      "point_count"
+    ]
+  ],
+  "paint": {
+    "circle-color": [
+      "case",
+      ["boolean", ["get", "selected"], false],
+      "#000000",
+      ["boolean",  ["get", "hasProblem"], false],
+      "#F44336",
+      "#F2F2F2"
+    ],
+    "circle-opacity": [
+      "case",
+      ["boolean", ["get", "selected"], false],
+      1.0,
+      ["boolean",  ["get", "hasProblem"], false],
+      0.85,
+      1.0
+    ],
+    "circle-radius": 8,
+    "circle-stroke-width": 1,
+    "circle-stroke-color": "#000000"
+  }
+}
